@@ -1,0 +1,103 @@
+* {
+    margin: auto;
+  }
+
+
+  a, a:hover, a:active, a:visited {
+    color: #80ff80;
+    pointer-events: none;
+    text-decoration: none;
+  }
+
+  body {
+    position: relative;
+    padding-top: 85px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fnossopalestra.com.br%2Fwp-content%2Fuploads%2F2021%2F01%2F50804972118_bb65427f83_h.jpg%3Ffit%3D1500%252C844%26ssl%3D1&f=1&nofb=1);
+    color: #cccccc;  
+  }
+  
+  #gol > h1 {
+    color: #002f00;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #002f00;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .nav-grid {
+    float: left;
+    margin-left: 2px;
+    text-align: justify;
+    word-wrap: break-word;
+    padding: 10px;
+  }
+
+  #nav-bar > ul {
+    list-style: none;
+  }
+
+  #vantagens, #cadastro {
+    text-align: center;
+  }
+
+  #cadastro {
+    margin-top: 75px;
+    margin-bottom: 20px;
+  }
+
+  #vantagens {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+  #gol {
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 75%
+  }
+
+  #gol > h1 {
+    margin-bottom: 10px;
+  }
+
+  #div-vantagens > ul {
+    margin: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    font-weight: bolder;
+    list-style: none;
+    text-align: center;
+  }
+
+  footer {
+    height: 25px;
+    background-color: #00331a;
+    color: #66ff99;
+    text-align: right;
+  }
+
+  footer > p {
+    margin-right: 5px;
+  }
+
+  @media screen and (max-width: 800px){
+    html{
+    overflow-x:auto !important;
+    }
+    body{
+    overflow-x:auto !important;
+    }
+  }
