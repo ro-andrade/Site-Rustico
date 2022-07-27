@@ -92,12 +92,3 @@
   footer > p {
     margin-right: 5px;
   }
-
-  @media screen and (max-width: 800px){
-    html{
-    overflow-x:auto !important;
-    }
-    body{
-    overflow-x:auto !important;
-    }
-  }
